@@ -1,0 +1,30 @@
+.container{
+   margin: 50px 0;
+}
+.card{
+   margin: 0 2% !important;
+}
+.infected{
+   border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+.recovered{
+   border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+.deaths{
+   border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.head{
+   background-color: rgb(202, 215, 238);
+   padding: 5px;
+   border-radius: 10px;
+   text-align: center;
+   font-weight: 600 !important;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width:700px){
+   .card{
+      margin: 2% 0 !important;
+   }
+}
